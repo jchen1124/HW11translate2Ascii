@@ -26,7 +26,7 @@ git clone https://github.com/jchen1124/HW11translate2Ascii
 ### Steps to run program without subroutine
 2. 
 ```
-make program.o && program
+make program.o && make program
 ```
 3. 
 ```
@@ -37,7 +37,7 @@ make run
 
 2. 
 ```
-make extracredit.o && extracredit
+make extracredit.o && make extracredit
 ```
 
 3. 
