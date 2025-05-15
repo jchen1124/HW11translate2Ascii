@@ -17,6 +17,6 @@ run2:
 	./translate2ascii_ExtraCredit
 
 clean:
-	rm ~.o
+	rm *.o
 	rm *~
 
