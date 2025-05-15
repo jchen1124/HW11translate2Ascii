@@ -15,7 +15,7 @@ The purpose of this software is to convert hex characters into ascii
 - Contains the code to convert hex to ascii using subroutines
 
 ### makefile
-- Contains execute scripts
+- Contains execution scripts
 
 ## How to compile and execute my code
 1. Clone the repository:
@@ -45,7 +45,7 @@ make extracredit.o && make extracredit
 make run2
 ```
 
-## Expected Output
+## Program Output
 
 83 6A 88 DE 9A C3 54 9A
 
