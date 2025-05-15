@@ -15,9 +15,11 @@ _start:
 
 .main_loop:
     ; load byte into eax (al holds byte)
+    ; Load one byte of input
     movzx eax, byte [esi]  
 
     ; Higher bit 
+    ; Isolate and translate first 4 bits (high bit -- left char)
     mov bl, al
     ; mask out low bit, keep high bit
     and bl, 0xF0           
@@ -37,6 +39,7 @@ _start:
 
     ; Lower bit 
     ; mask out higher , keep lower
+    ; Isolate and translate second 4 bits (low bit -- right char)
     and al, 0x0F           
 
     cmp al, 9
