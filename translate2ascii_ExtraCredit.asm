@@ -28,7 +28,8 @@ _start:
 
 .main_loop:
     movzx eax, byte [esi]
-    ; Keep a copy of the original byte in AH because AL will be modified
+
+    ; ah is the higher 8 bits of ax
     mov ah, al
 
     ; Process Higher nibble (left bit)
