@@ -18,5 +18,5 @@ run2:
 
 clean:
 	rm *.o
-	rm *~
+	
 
