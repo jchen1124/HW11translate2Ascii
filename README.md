@@ -45,3 +45,7 @@ make extracredit.o && make extracredit
 make run2
 ```
 
+## Expected Output
+
+83 6A 88 DE 9A C3 54 9A
+
