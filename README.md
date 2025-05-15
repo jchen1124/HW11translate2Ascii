@@ -23,7 +23,7 @@ The purpose of this software is to convert hex characters into ascii
 git clone https://github.com/jchen1124/HW11translate2Ascii
 ```
 
-### Without subroutine
+### Steps to run program without subroutine
 2. 
 ```
 make program.o && program
@@ -33,7 +33,7 @@ make program.o && program
 make run
 ```
 
-### With subroutine (Extra Credit)
+### Steps to run program with subroutine (Extra Credit)
 
 2. 
 ```
