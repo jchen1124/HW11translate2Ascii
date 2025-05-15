@@ -17,6 +17,6 @@ run2:
 	./translate2ascii_ExtraCredit
 
 clean:
-	rm hw11.o
+	rm ~.o
 	rm *~
 
